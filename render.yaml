@@ -1,9 +1,9 @@
 services:
   - type: web
     name: resume-grader
-    env: python
+    runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: gunicorn app:app
     envVars:
-      - key: PORT
-        value: 10000
+      - key: PYTHON_VERSION
+        value: 3.10.12
