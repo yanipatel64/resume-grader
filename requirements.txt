@@ -1,5 +1,5 @@
 Flask==2.3.2
 gunicorn
-PyMuPDF==1.23.7 --only-binary :all:
+PyMuPDF==1.26.1 --only-binary :all:
 spacy==3.7.2
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
