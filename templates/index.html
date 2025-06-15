@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automated Resume Grader</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Grader</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="resume" accept=".pdf" required>
+      <button type="submit">Upload & Grade</button>
+    </form>
+  </div>
+</body>
+</html>

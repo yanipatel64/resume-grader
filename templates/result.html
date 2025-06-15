@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result - Resume Grader</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Resume Score: {{ score }}/100</h2>
+    <h3>Actionable Feedback:</h3>
+    <ul>
+      {% for item in feedback %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <a href="/">⟵ Go Back</a>
+  </div>
+</body>
+</html>
