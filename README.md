@@ -6,7 +6,7 @@ An AI-powered Resume Grader web application that reads PDF resumes, analyzes con
 
 ### 🔗 Live Demo
 
-👉 [Visit Resume Grader](https://resume-grader.onrender.com)
+👉 [Visit Resume Grader](https://resume-grader.onrender.com/)
 
 ---
 
